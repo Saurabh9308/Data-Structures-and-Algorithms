@@ -102,6 +102,10 @@ public:
 
         head->next = prev;
     }
+    //Function to get length of the Linked List
+    int length(){
+        return size;
+    }
     
     //Function to check an element present in the Linked List or Not
     bool isPresent(int val){
