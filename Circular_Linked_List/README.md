@@ -1,34 +1,32 @@
-Circular Linked List in C++
+# Circular Linked List in C++
 
-This repository contains an implementation of a Circular Linked List in C++, providing various functionalities to manipulate and interact with the list, such as insertion, deletion, searching, and reversal. The code is designed to manage elements dynamically while maintaining the circular structure.
+This repository contains an implementation of a Circular Linked List in C++, offering functionalities to manipulate and interact with the list, including insertion, deletion, searching, and reversal. The code dynamically manages elements while maintaining the circular structure of the list.
 
-Features
-  1. Insertions
-    a) Insert at Head: Add a new node at the beginning of the list.
-    b) Insert at Tail: Add a new node at the end of the list.
-    c) Insert at Index: Insert a node at a specific index (1-based indexing).
+## Features
 
-  2. Deletions
-    a) Delete at Head: Remove the node at the head of the list.
-    b) Delete at Tail: Remove the node at the tail of the list.
-    c) Delete at Index: Delete the node at a specific index.
-    d) Delete by Value: Find and remove the first node with the specified value.
+### Insertions
+- **Insert at Head**: Add a new node at the beginning of the list.
+- **Insert at Tail**: Add a new node at the end of the list.
+- **Insert at Index**: Insert a node at a specified index (1-based indexing).
 
-  3. Reversing the Circular Linked List
-    The list can be reversed, maintaining the circular structure.
+### Deletions
+- **Delete at Head**: Remove the node at the head of the list.
+- **Delete at Tail**: Remove the node at the tail of the list.
+- **Delete at Index**: Delete the node at a specified index.
+- **Delete by Value**: Find and remove the first node with a specific value.
 
-  4. Searching
-    Check if a given value is present in the list.
+### Additional Functionalities
+- **Reversing the List**: Reverse the entire list while preserving the circular structure.
+- **Searching**: Check if a given value is present in the list.
+- **Display**: Output all elements in the list.
+- **Size Calculation**: Return the number of nodes in the list.
 
-  5. Display
-    Display all the elements in the list.
+## Class Structure
 
-  6. Size Calculation
-    Get the number of nodes in the list.
+- **`ListNode` Class**: Represents an individual node, containing a value and a pointer to the next node.
+- **`Circular_Linked_List` Class**: Manages the circular linked list and provides member functions for various operations.
 
-Class Structure
-  1. ListNode Class: Represents an individual node in the Circular Linked List, holding a value and a pointer to the next node.
-  2. Circular_Linked_List Class: Implements the entire Circular Linked List and provides member functions for various operations.
+## Conclusion
 
-Conclusion: 
-This implementation of a Circular Linked List in C++ offers efficient and dynamic management of elements with support for various operations such as insertion, deletion, reversal, and searching. The circular structure ensures that the list loops back to the head, making it ideal for certain use cases like round-robin scheduling. This code provides a flexible foundation for further enhancements or integration into larger projects.
+This implementation of a Circular Linked List in C++ allows for efficient and dynamic element management with support for insertion, deletion, reversal, and searching. The circular structure ensures that the list loops back to the head, making it ideal for applications like round-robin scheduling. This codebase provides a flexible foundation for enhancements or integration into larger projects.
+
