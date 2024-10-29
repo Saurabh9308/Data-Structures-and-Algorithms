@@ -12,9 +12,3 @@ This project implements binary tree traversals (both recursive and iterative) an
    - **Level Order**: Using a queue.
 4. **Boundary Traversal**: Anti-clockwise boundary traversal (`left`, `bottom`, `right` boundaries).
 
-## Usage
-
-1. Clone the repository and compile:
-   ```bash
-   g++ tree_traversals.cpp -o tree_traversals
-   ./tree_traversals
